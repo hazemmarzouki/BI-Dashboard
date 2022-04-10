@@ -62,9 +62,11 @@
   z-index: -1;
 }
 
+
 .sidebar-navigation li:hover::before {
   width: 100%;
 }
+
 
 .sidebar-navigation .header {
   font-size: 12px;

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0bPzAURA8u5gWUJLIFj4PeEpCMN3adDeNHb+/lO64PnWJsizZTZ60W5LdsPuqv+bBvJVYp0CN+l/RCFVYH3aAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebApi\\DashboardWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}

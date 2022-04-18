@@ -12,9 +12,9 @@ export class LineChartComponent implements OnInit {
   constructor() { }
 
   public lineChartData: ChartDataset[] = [ 
-    { data: [85, 72, 78, 75, 77, 75], label: 'Crude oil prices', tension: 0.5,fill: true },
-    { data: [45, 42, 88, 35, 47, 41], label: 'oil prices', tension: 0.5,fill: true },
-    { data: [75, 48, 48, 36, 15, 45], label: 'Crud' , tension: 0.5,fill: true}
+    { data: [35, 25, 46, 11, 57, 25], label: 'NY', tension: 0.5,fill: true },
+    { data: [45, 14, 55, 35, 47, 31], label: 'FL', tension: 0.5,fill: true },
+    { data: [25, 48, 18, 36, 15, 45], label: 'AZ' , tension: 0.5,fill: true}
   ];
 
   lineChartLabels: string[] = ['January', 'February', 'March', 'April', 'May', 'June'];

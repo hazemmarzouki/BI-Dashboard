@@ -1,4 +1,6 @@
-using Microsoft.EntityFramewokCore;
+using Microsoft.EntityFrameworkCore;  
+using System;  
+
 namespace DashboardWebApi.Models
 
 {
@@ -12,6 +14,6 @@ namespace DashboardWebApi.Models
 
 
         }
-    }
+
 
 }

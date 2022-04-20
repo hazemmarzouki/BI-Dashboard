@@ -43,7 +43,7 @@ namespace DashboardWebApi.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    CustromerId = table.Column<int>(nullable: true),
+                    CustomerId = table.Column<int>(nullable: true),
                     Total = table.Column<decimal>(nullable: false),
                     Placed = table.Column<DateTime>(nullable: false),
                     Completed = table.Column<DateTime>(nullable: true)
@@ -52,17 +52,17 @@ namespace DashboardWebApi.Migrations
                 {
                     table.PrimaryKey("PK_Orders", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Orders_Customers_CustromerId",
-                        column: x => x.CustromerId,
+                        name: "FK_Orders_Customers_CustomerId",
+                        column: x => x.CustomerId,
                         principalTable: "Customers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Orders_CustromerId",
+                name: "IX_Orders_CustomerId",
                 table: "Orders",
-                column: "CustromerId");
+                column: "CustomerId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

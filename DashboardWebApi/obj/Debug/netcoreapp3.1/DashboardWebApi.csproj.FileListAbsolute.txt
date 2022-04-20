@@ -1,9 +1,3 @@
-C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.csproj.AssemblyReference.cache
-C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.AssemblyInfoInputs.cache
-C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.AssemblyInfo.cs
-C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.csproj.CoreCompileInputs.cache
-C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\bin\Debug\netcoreapp3.1\DashboardWebApi.exe
@@ -35,6 +29,12 @@ C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\bin\Debug\netcoreapp3.1\Npgsql.d
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.csproj.AssemblyReference.cache
+C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.AssemblyInfo.cs
+C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\staticwebassets\DashboardWebApi.StaticWebAssets.Manifest.cache
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.RazorTargetAssemblyInfo.cache
 C:\Users\a\Desktop\BI-Dashboard\DashboardWebApi\obj\Debug\netcoreapp3.1\DashboardWebApi.csproj.CopyComplete

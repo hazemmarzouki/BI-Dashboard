@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DashboardWebApi.Migrations
 {
     [DbContext(typeof(ApiContext))]
-    [Migration("20220418213947_InitialMigration")]
+    [Migration("20220420103407_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,7 +52,7 @@ namespace DashboardWebApi.Migrations
                     b.Property<DateTime?>("Completed")
                         .HasColumnType("timestamp without time zone");
 
-                    b.Property<int?>("CustromerId")
+                    b.Property<int?>("CustomerId")
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("Placed")
@@ -63,7 +63,7 @@ namespace DashboardWebApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustromerId");
+                    b.HasIndex("CustomerId");
 
                     b.ToTable("Orders");
                 });
@@ -88,9 +88,9 @@ namespace DashboardWebApi.Migrations
 
             modelBuilder.Entity("DashboardWebApi.Models.Order", b =>
                 {
-                    b.HasOne("DashboardWebApi.Models.Customer", "Custromer")
+                    b.HasOne("DashboardWebApi.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustromerId");
+                        .HasForeignKey("CustomerId");
                 });
 #pragma warning restore 612, 618
         }

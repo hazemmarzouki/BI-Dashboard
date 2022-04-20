@@ -34,10 +34,13 @@ namespace DashboardWebApi
             services.AddMvc();
             services.AddDbContext<ApiContext>
             (options => options.UseNpgsql(_connectionString));
+
+            services.AddTransient<DataSeed>(); // add a stateless services that only need to be run once
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataSeed seed)
         {
             if (env.IsDevelopment())
             {
@@ -54,6 +57,8 @@ namespace DashboardWebApi
             {
                 endpoints.MapControllers();
             });
+
+            seed.SeedData(20,500);//Example we need 20 customers adn 500 orders
         }
     }
 }

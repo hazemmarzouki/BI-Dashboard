@@ -50,7 +50,7 @@ namespace DashboardWebApi.Migrations
                     b.Property<DateTime?>("Completed")
                         .HasColumnType("timestamp without time zone");
 
-                    b.Property<int?>("CustromerId")
+                    b.Property<int?>("CustomerId")
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("Placed")
@@ -61,7 +61,7 @@ namespace DashboardWebApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustromerId");
+                    b.HasIndex("CustomerId");
 
                     b.ToTable("Orders");
                 });
@@ -86,9 +86,9 @@ namespace DashboardWebApi.Migrations
 
             modelBuilder.Entity("DashboardWebApi.Models.Order", b =>
                 {
-                    b.HasOne("DashboardWebApi.Models.Customer", "Custromer")
+                    b.HasOne("DashboardWebApi.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustromerId");
+                        .HasForeignKey("CustomerId");
                 });
 #pragma warning restore 612, 618
         }

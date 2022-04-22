@@ -24,7 +24,7 @@ namespace DashboardWebApi
 
 
         internal static string MakeCustomerEmail(string name){
-            return $"contact@{name.ToLower()}.com";
+            return $"contact@{name.ToLower().Trim()}.com";
 
         }
 

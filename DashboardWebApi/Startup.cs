@@ -31,7 +31,8 @@ namespace DashboardWebApi
         {
             _connectionString = Configuration["secretConnectionString"];
             services.AddControllers();
-            services.AddMvc();
+            services.AddMvc(option => option.EnableEndpointRouting = false) ;
+
             services.AddDbContext<ApiContext>
             (options => options.UseNpgsql(_connectionString));
 
@@ -58,7 +59,11 @@ namespace DashboardWebApi
                 endpoints.MapControllers();
             });
 
-            seed.SeedData(20,500);//Example we need 20 customers adn 500 orders
+            seed.SeedData(20,500);   //Example we need 20 customers adn 500 orders
+            app.UseMvc(routes => routes.MapRoute(   //Add a cutsom template to our routes
+               name: "default" ,
+                template: "api/{controller}/{actions}/{id?}" // this Url stucture allows us to acces controller actions
+            )); 
         }
     }
 }

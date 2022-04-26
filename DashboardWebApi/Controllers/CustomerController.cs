@@ -23,7 +23,7 @@ namespace DashboardWebApi.Controllers
         }
 
         //GET api/customers/5
-        [HttpGet("{id}", Name = "GetCustomer")]
+        [HttpGet("{id}", Name = "GetCustomer")]// example :http://localhost:5001/api/Customer/7
         public IActionResult Get(int id)
         {
             var customer = _ctx.Customers.Find(id);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebApi\\DashboardWebApi.csproj": {}
+    "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebAPi\\DashboardWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebApi\\DashboardWebApi.csproj": {
+    "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebAPi\\DashboardWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebApi\\DashboardWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebAPi\\DashboardWebApi.csproj",
         "projectName": "DashboardWebApi",
-        "projectPath": "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebApi\\DashboardWebApi.csproj",
+        "projectPath": "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebAPi\\DashboardWebApi.csproj",
         "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebApi\\obj\\",
+        "outputPath": "C:\\Users\\a\\Desktop\\BI-Dashboard\\DashboardWebAPi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
